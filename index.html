@@ -1,18 +1,100 @@
 <!DOCTYPE html>
+
 <html>
-   <head>
-      <title>Dhanvi's World</title>
-       <link href="style.css" rel="stylesheet" type="text/css" />
-   </head>
-   <body>
-      <h1 style="text-align:center">D H A N V I</h1>
-      <p style="text-align: center">Dhanvi discovers that unicorn live in <b>outer space</b>. More innovations from this discovery to follow.</p>
-      <b>
-         <p class="pink-paragraph">Welcome To My Page</p>
-       <p class="green-paragraph">Enjoy Your Day</p>
-       </b>
-      <img src = "https://i5.walmartimages.com/asr/78829f7b-b4fd-453e-88f5-928a2a42a601.53ff646cc6034c685af5dd234ef7e01c.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff" 
-      alt = "Unicorn">
-      <!-- This image was taken by NASA and is in the Public Domain -->
-   </body>
- </html>
+  <head>
+    <title>Retial World</title>
+    <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+   
+  </head>
+  <body> 
+    <header>
+      <h1>Hello, Welcome to Retail World</h1>
+      <h4>Please enter your information to get our weekly update</h4>
+      <h2>Largest Retailer</h2>
+    <nav>
+    <ul>
+      <li>
+        <a href="#walmart">Walmart Stores Inc</a>
+      </li>
+      <li>
+        <a href="#sams">Sam's Club</a>
+      </li>
+    </ul>
+  </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <a name="walmart"></a>
+          <h2>Walmart Stores Inc.</h2>
+          <p>
+            Walmart is the world's largest company by revenue, with US$514.405 billion, according to the Fortune Global 500 list in 2019. It is also the largest private employer in the world with 2.2 million employees. It is a publicly traded family-owned business, as the company is controlled by the Walton family. Sam Walton's heirs own over 50 percent of Walmart through both their holding company Walton Enterprises and their individual holdings. Walmart was the largest United States grocery retailer in 2019, and 65 percent of Walmart's US$510.329 billion sales came from U.S. operations.
+          </p>
+          <figure>
+            <img src="https://cdn.corporate.walmart.com/dims4/WMT/6d64941/2147483647/strip/true/crop/2100x1397+0+0/resize/1920x1277!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2F52%2F72%2F65e9588c42d3835f63c78375720c%2Fhome-office-sign-flag-horizontal-129826465142857703.jpg" alt="Walmart, home office based in Bentonville, AR. Walmart is world largest retailer" width="1000" height="600">
+            <figcaption>Image Credit goes to Walmart Inc</figcaption>
+          </figure>
+        </section>
+        <section>
+          <a name="sams"></a>
+          <h2>Sam's Club</h2>
+          <p>
+            Sam's West, Inc. (doing business as Sam's Club) is an American chain of membership-only retail warehouse clubs owned and operated by Walmart Inc., founded in 1983 and named after Walmart founder Sam Walton. As of January 31, 2019, Sam's Club ranks second in sales volume among warehouse clubs with $57.839 billion in sales (in fiscal year 2019) behind rival Costco Wholesale.  
+          </p>
+          <figure>
+            <img src="https://www.southernsavers.com/wp-content/uploads/2017/08/sams-club.jpg" alt="Sam's Club Culiacán.jpg" width="1000" height="600">
+            <figcaption>Image Credit goes to Sam's club Inc</figcaption>
+          </figure>
+        </section>
+      </article>
+
+      <form id="UserInformation" class="contact">
+        <h3>Please Enter your infromation</h3>
+        
+        
+            <fieldset>
+        
+               <div class="label">
+                                   <label class="fixedwidth" for="name">Name: </label>
+                                   <input id="name" name="name" type="text" size="50" placeholder="Your Name" value="" required>
+                                   
+                           </div>
+        
+               <div class="label">
+                                    <label class="fixedwidth" for="email">Email: </label>
+                                    <input id="email" name="email" type="email" size="50" placeholder="test@test.com" value="" required>
+                           </div>
+        
+               <div class="label">
+                                    <label class="fixedwidth" for="subject">Subject: </label>
+                                    <input id="subject" name="subject" type="text" size="50" value="">
+                           </div>
+        
+              <div id="textarea">
+                                     <label class="fixedwidth" for="message">Comment: </label><br/>
+                                     <textarea id="message" name="message" rows="5" ></textarea>
+                          </div>
+        
+              <div class="buttonarea">
+                <input type="submit" id="submit" name="submit" value="Submit"/>
+                          </div>
+        
+        </fieldset>
+        </form>
+
+    </main>
+    <footer>
+      <p>Thank you for visiting my walmart world</p>
+      <p>&copy Walmart Inc</p>
+      <p>&reg Wal-Mart</p>
+      <address>
+        Written by <a href="mailto:test@example.com">Maulik Jani</a>.<br> 
+        Visit us at: <a href="https://www.walmart.com">Walmart</a>.<br>
+        Bentonville, AR<br>
+        USA
+        </address>
+    </footer>
+    
+  </body>
+  <script src = "script.js"></script>
+</html>
