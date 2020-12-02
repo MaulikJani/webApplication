@@ -1,7 +1,43 @@
-.pink-paragraph {
-    color: pink;
- }
- 
- .green-paragraph {
-    color: greenyellow;
- }
+html {
+	margin: 0;
+	padding: 0;
+    }
+body { 
+        font: 75% georgia, sans-serif;
+        line-height: 2;
+        color: #555753; 
+        background: #fff url(https://i.pinimg.com/280x280_RS/bd/c3/1c/bdc31c842312b41e5b0807305d2329f7.jpg) no-repeat top right; 
+        background-color: lightgray;
+     }
+a:link { 
+        font-weight: bold; 
+        text-decoration: none; 
+        color: red;
+        }
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: green;
+}
+
+p label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: justify;
+  }
+
+  .fixedwidth {
+      background-color: greenyellow;
+      
+  }
+
+  div {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
